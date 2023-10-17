@@ -40,6 +40,15 @@
   margin: 0 auto;
 }
 
+.input-box-icon {
+  margin-right: 16px;
+
+  border-radius: 24px;
+
+  width: 24px;
+  height: 24px;
+}
+
 .inputbox-container { /*처음, 오류 없을때 보이는 것.*/
   border-bottom: 1px solid #797979;
   width: 96.2%;
@@ -118,4 +127,13 @@
 
 .nextpage:hover {
   background-position: right;
+}
+
+.input-rigth-arrow-icon {
+  height: 24px;
+  width: 24px;
+
+  background-image: url(assets/image/화살표.png);
+  background-position: 50% 50%;
+  background-size: 100% 100%;
 }

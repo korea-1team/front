@@ -38,6 +38,12 @@
   margin: 0 auto;
 }
 
+.inputbox-label-box {
+  width: 418px;
+  height: 75px;
+  padding-bottom: 10px;
+}
+
 .inputbox-container { /*처음, 오류 없을때 보이는 것.*/
   border-bottom: 1px solid #797979;
   width: 96.2%;
@@ -111,9 +117,37 @@
   border:none;
   cursor:pointer;
   transition: 0.4s;
+
   
 }
 
 .nextpage:hover {
   background-position: right;
+}
+
+.membering {
+  width: 418px;
+  height: 50px;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.membering-msg {
+  padding-right: 10px;
+}
+
+.membering-button {
+  width: auto;
+  height: auto;
+
+  font-weight: 1000;
+
+  cursor:pointer;
+}
+
+.membering-button:active {
+  background-color: #797979;
 }
